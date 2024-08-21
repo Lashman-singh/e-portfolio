@@ -25,7 +25,7 @@ const Services = () => {
       <div className="awesome">
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Professional</span>
-        <span>Services</span>
+        <span id="color">Services</span>
         <p>
           I specialize in developing applications and websites with hands-on
           experience in various technologies. My skills include working with

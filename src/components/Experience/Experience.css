@@ -40,7 +40,8 @@
 }
 
 .achievement span:nth-of-type(2){
-    color: var(--orange);
+    color: var(--blue);
+    font-size: 1.5rem;
 }
 
 

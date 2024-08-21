@@ -5,44 +5,34 @@ import "swiper/css";
 
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
-import profilePic1 from "../../img/profile1.jpg";
-import profilePic2 from "../../img/profile2.jpg";
-import profilePic3 from "../../img/profile3.jpg";
-import profilePic4 from "../../img/profile4.jpg";
+import Baha from "../../img/Baha.jpg";
+import Abhi from "../../img/Abhi.png";
 
 const Testimonial = () => {
   const clients = [
     {
-      img: profilePic1,
+      img: Baha,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "I've had the pleasure of teaching Lashman in both Object-Oriented System Analysis and Programming 2 with C#. Throughout these courses, Lashman consistently impressed me with his strong grasp of complex programming concepts and their ability to apply object-oriented principles effectively. I highly recommend him for any opportunities he seek, as he has the skills and dedication to excel in the field.",
     },
     {
-      img: profilePic2,
+      img: Abhi,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
-    },
-    {
-      img: profilePic3,
-      review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
-    },
-    {
-      img: profilePic4,
-      review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "I've had the pleasure of working with Lashman for four months at Ace Project Space at Red River College. As a developer myself, I've witnessed firsthand Lashman's exceptional troubleshooting and code understanding abilities. Their ability to approach errors was instrumental in the RAIN Project. Beyond their technical expertise, Lashman is a highly collaborative and motivated individual who is always eager to learn and grow. I wholeheartedly recommend Lashman for any IT position.",
     },
   ];
 
   return (
     <div className="t-wrapper" id="testimonial">
       <div className="t-heading">
-        <span>Clients always get </span>
-        <span>Exceptional Work </span>
-        <span>from me...</span>
-      <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
-      <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
-
+        <span>Instructors and colleagues always receive </span>
+        <span>exceptional work </span>
+        <span>from me... </span>
+        <div
+          className="blur t-blur1"
+          style={{ background: "var(--purple)" }}
+        ></div>
+        <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
       </div>
       <Swiper
         // install Swiper modules

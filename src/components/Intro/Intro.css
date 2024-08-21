@@ -23,7 +23,7 @@
   font-size: 3rem;
 }
 .i-name > :nth-child(2) {
-  color: var(--orange);
+  color: var(--blue);
   font-weight: bold;
   font-size: 3rem;
 }
@@ -63,13 +63,13 @@
   top: -9%;
 }
 .i-right > :nth-child(2) {
-  top: -4.6rem;
+  top: -4.8rem;
   transform: scale(0.67);
   left: -3rem;
 }
 .i-right > :nth-child(3) {
   transform: scale(1.4);
-  left: 28%;
+  left: 20%;
 }
 .i-right > :nth-child(4) {
   transform: scale(0.);

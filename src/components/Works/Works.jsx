@@ -28,13 +28,11 @@ const Works = () => {
           <p id="simple-text">
             I have had the opportunity during my internship to work on real
             world projects, one of them is Radiology Artificial Intelligence
-            with clients who runs a <br />
-            health care system. These experiences have allowed me to refine my
-            skills in application and web development, deliver high-quality
-            solutions, and
-            <br />
-            adapt to various client needs and project requirements. My work
-            spans across different industries, providing me with a broad
+            with clients who runs a health care system. These experiences have
+            allowed me to refine my skills in application and web development,
+            deliver high-quality solutions, and adapt to various client needs
+            and project requirements. My work spans across different industries,
+            providing me with a broad
             <br />
             perspective and a solid foundation in both design and development.
             Whether it's building user-friendly interfaces or implementing

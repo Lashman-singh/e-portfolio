@@ -35,14 +35,14 @@ const Portfolio = () => {
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://lashman-singh.github.io/Simone-says-game/">
-            {" "}
-            <img src={Simon} alt="Simon says game" />
+          <a href="https://winnipeg-election-result.vercel.app/">
+            <img src={Election} alt="Winnipeg Election" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://winnipeg-election-result.vercel.app/">
-            <img src={Election} alt="Winnipeg Election" />
+          <a href="https://lashman-singh.github.io/Simone-says-game/">
+            {" "}
+            <img src={Simon} alt="Simon says game" />
           </a>
         </SwiperSlide>
       </Swiper>

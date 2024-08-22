@@ -77,6 +77,15 @@ const Intro = () => {
           alt=""
         />
 
+        <motion.div
+          initial={{ top: "-4%", left: "74%" }}
+          whileInView={{ left: "68%" }}
+          transition={transition}
+          className="floating-div"
+        >
+          <FloatinDiv img={crown} text1="Web" text2="Developer" />
+        </motion.div>
+
         {/* animation */}
         <motion.div
           initial={{ left: "16rem", top: "18rem" }}

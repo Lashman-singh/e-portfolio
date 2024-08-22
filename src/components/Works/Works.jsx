@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import "./Works.css";
-import Upwork from "../../img/Upwork.png";
+import Upwork from "../../img/mcs.png";
 import Amazon from "../../img/amazon.png";
 import RRC from "../../img/RRC.png";
 import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import Google from "../../img/google.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
@@ -22,16 +22,16 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-            Worked with RRC College & {" "}
+            Worked with RRC College &{" "}
           </span>
           <span id="color">My Dream Companies are </span>
           <p id="simple-text">
             I have had the opportunity during my internship to work on real
             world projects, one of them is Radiology Artificial Intelligence
-            with clients who runs a health care system.
-            <br />
-            These experiences have allowed me to refine my skills in application
-            and web development, deliver high-quality solutions, and
+            with clients who runs a <br />
+            health care system. These experiences have allowed me to refine my
+            skills in application and web development, deliver high-quality
+            solutions, and
             <br />
             adapt to various client needs and project requirements. My work
             spans across different industries, providing me with a broad
@@ -74,7 +74,7 @@ const Works = () => {
             <img src={Shopify} alt="Shopify" />
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="Facebook" />
+            <img src={Google} alt="Facebook" />
           </div>
         </motion.div>
         {/* background Circles */}

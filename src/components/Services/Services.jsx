@@ -58,7 +58,7 @@ const Services = () => {
             emoji={HeartEmoji}
             heading={"Design"}
             detail={
-              "Proficient in UI/UX design with tools like Figma, Sketch, and Adobe XD."
+              "Proficient in UI/UX design with tools like WireFraming, Figma and Sketch."
             }
           />
         </motion.div>
@@ -72,7 +72,7 @@ const Services = () => {
             emoji={Glasses}
             heading={"Development"}
             detail={
-              "Experienced in C#, .NET, HTML, CSS, JavaScript, React, Node.js, PHP, Python, and Django."
+              "Experienced in MERN stack, C#, Java, PHP, Python, Django, CSS, JavaScript, .NET and React."
             }
           />
         </motion.div>
@@ -86,7 +86,7 @@ const Services = () => {
             emoji={Humble}
             heading={"Database & APIs"}
             detail={
-              "Skilled in SQL databases (PostgreSQL, MySQL), MongoDB, and RESTful API integration."
+              "Skilled in SQL databases (PostgreSQL, MySQL, SSMS), MongoDB, and RESTful API integration."
             }
             color="rgba(252, 166, 31, 0.45)"
           />

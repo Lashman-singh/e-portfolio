@@ -7,6 +7,10 @@
   /* scroll */
   align-items: center;
 }
+
+#simple-text{
+  font-size: 5;
+}
 /* left side */
 .awesome {
   display: flex;
@@ -27,7 +31,7 @@
 
 .awesome > :nth-child(3) {
   color: var(--gray);
-  font-size: 14px;
+  font-size: 15px;
   margin-top: 1rem;
 }
 .s-button {
@@ -35,6 +39,7 @@
   height: 2rem;
   margin-top: 4rem;
 }
+
 
 /* right side */
 .w-right {

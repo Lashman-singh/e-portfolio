@@ -21,9 +21,11 @@ const Works = () => {
       <div className="w-left">
         <div className="awesome">
           {/* dark Mode */}
-          <span style={{ color: darkMode ? "white" : "" }}>Worked with</span>
-          <span id="color">RRC College & Dream Companies</span>
-          <p>
+          <span style={{ color: darkMode ? "white" : "" }}>
+            Worked with RRC College & {" "}
+          </span>
+          <span id="color">My Dream Companies are </span>
+          <p id="simple-text">
             I have had the opportunity during my internship to work on real
             world projects, one of them is Radiology Artificial Intelligence
             with clients who runs a health care system.

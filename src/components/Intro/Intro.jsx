@@ -13,7 +13,6 @@ import Instagram from "../../img/instagram.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
-
 const Intro = () => {
   // Transition
   const transition = { duration: 2, type: "spring" };
@@ -29,10 +28,10 @@ const Intro = () => {
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Lashman Singh</span>
+          <span>Andrew Thomas</span>
           <span>
-            Full Stack Developer with a high level of experience in web design
-            and development, producing quality work.
+            Frontend Developer with high level of experience in web designing
+            and development, producting the Quality work
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -40,27 +39,9 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <a
-            href="https://github.com/Lashman-singh"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={Github} alt="Github" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/-lashman-singh/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={LinkedIn} alt="LinkedIn" />
-          </a>
-          <a
-            href="https://www.instagram.com/lashman_singh034/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={Instagram} alt="Instagram" />
-          </a>
+          <img src={Github} alt="" />
+          <img src={LinkedIn} alt="" />
+          <img src={Instagram} alt="" />
         </div>
       </div>
       {/* right image side */}
@@ -77,15 +58,24 @@ const Intro = () => {
           alt=""
         />
 
-        
-
         <motion.div
-          initial={{ left: "16rem", top: "18rem" }}
-          whileInView={{ left: "0rem" }}
+          initial={{ top: "-4%", left: "74%" }}
+          whileInView={{ left: "68%" }}
           transition={transition}
           className="floating-div"
         >
           <FloatinDiv img={crown} text1="Web" text2="Developer" />
+        </motion.div>
+
+        {/* animation */}
+        <motion.div
+          initial={{ left: "9rem", top: "18rem" }}
+          whileInView={{ left: "0rem" }}
+          transition={transition}
+          className="floating-div"
+        >
+          {/* floatinDiv mein change hy dark mode ka */}
+          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
@@ -105,4 +95,3 @@ const Intro = () => {
 };
 
 export default Intro;
-//

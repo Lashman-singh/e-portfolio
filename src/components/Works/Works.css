@@ -7,10 +7,6 @@
   /* scroll */
   align-items: center;
 }
-
-#simple-text{
-  font-size: 5;
-}
 /* left side */
 .awesome {
   display: flex;
@@ -23,15 +19,14 @@
   font-size: 2.5rem;
   font-weight: bold;
 }
-.awesome > :nth-child(2){
+.awesome > :nth-child(2) {
   color: var(--orange);
   font-size: 2.5rem;
   font-weight: bold;
 }
-
 .awesome > :nth-child(3) {
   color: var(--gray);
-  font-size: 15px;
+  font-size: 14px;
   margin-top: 1rem;
 }
 .s-button {
@@ -39,7 +34,6 @@
   height: 2rem;
   margin-top: 4rem;
 }
-
 
 /* right side */
 .w-right {

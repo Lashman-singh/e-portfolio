@@ -30,8 +30,8 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Lashman Singh</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+            Skilled Full Stack and Software Developer with expertise in web and
+            application design and development, delivering high-quality results.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -39,9 +39,27 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          <a
+            href="https://github.com/Lashman-singh"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Github} alt="GitHub" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/-lashman-singh/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={LinkedIn} alt="LinkedIn" />
+          </a>
+          <a
+            href="https://www.instagram.com/lashman_singh034/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Instagram} alt="Instagram" />
+          </a>
         </div>
       </div>
       {/* right image side */}

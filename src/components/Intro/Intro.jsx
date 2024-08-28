@@ -77,24 +77,24 @@ const Intro = () => {
           alt=""
         />
 
+        {/* animation */}
         <motion.div
           initial={{ top: "-4%", left: "74%" }}
           whileInView={{ left: "68%" }}
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="Web" text2="Developer" />
+          {/* floatinDiv mein change hy dark mode ka */}
+          <FloatinDiv img={thumbup} text1="Software" text2="Developer" />
         </motion.div>
 
-        {/* animation */}
         <motion.div
           initial={{ left: "16rem", top: "18rem" }}
           whileInView={{ left: "0rem" }}
           transition={transition}
           className="floating-div"
         >
-          {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Software" text2="Developer" />
+          <FloatinDiv img={crown} text1="Web" text2="Developer" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
@@ -114,4 +114,4 @@ const Intro = () => {
 };
 
 export default Intro;
-// 
+//

@@ -59,7 +59,7 @@ const Intro = () => {
         />
 
         <motion.div
-          initial={{ top: "-4%", left: "74%" }}
+          initial={{ top: "-4%", left: "57%" }}
           whileInView={{ left: "68%" }}
           transition={transition}
           className="floating-div"
@@ -69,13 +69,13 @@ const Intro = () => {
 
         {/* animation */}
         <motion.div
-          initial={{ left: "9rem", top: "18rem" }}
-          whileInView={{ left: "0rem" }}
+          initial={{ left: "15rem", top: "18rem" }}
+          whileInView={{ left: "3rem",}}
           transition={transition}
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+          <FloatinDiv img={thumbup} text1="Software" text2="Developer" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>

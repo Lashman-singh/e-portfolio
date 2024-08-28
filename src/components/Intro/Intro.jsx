@@ -28,7 +28,7 @@ const Intro = () => {
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
+          <span>Lashman Singh</span>
           <span>
             Frontend Developer with high level of experience in web designing
             and development, producting the Quality work
@@ -70,7 +70,7 @@ const Intro = () => {
         {/* animation */}
         <motion.div
           initial={{ left: "15rem", top: "18rem" }}
-          whileInView={{ left: "3rem",}}
+          whileInView={{ left: "3rem" }}
           transition={transition}
           className="floating-div"
         >

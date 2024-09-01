@@ -26,18 +26,17 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Professional</span>
         <span id="color">Services</span>
-        <p>
+        <p style={{ fontSize: "18px" }}>
           I specialize in developing applications and websites with hands-on
-          experience in various technologies. My skills include working with
-          <br />
-          MERN stack (MongoDB, Express.js, React.js, Node.js), C#, .NET, HTML,
-          CSS, JavaScript, PHP. Additionally, I am proficient in
-          <br />
-          Python and Django for backend development. I have a proven track
-          record in delivering high-quality solutions and enjoy tackling <br />
+          experience in various technologies. <br />
+          My skills include working with MERN stack (MongoDB, Express.js,
+          React.js, Node.js), C#, .NET, <br />
+          HTML, CSS, JavaScript, PHP. Additionally, I am proficient in Python
+          and Django for backend <br />
+          development. I have a proven track record in delivering high-quality
+          solutions and enjoy tackling <br />
           complex challenges. Whether it's building responsive web pages or
-          creating interactive user interfaces, I bring a results-driven
-          <br />
+          creating interactive user interfaces, <br /> I bring a results-driven
           approach to every project.
         </p>
 

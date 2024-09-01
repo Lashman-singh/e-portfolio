@@ -35,9 +35,17 @@
   margin-top: 4rem;
 }
 
+.w-left {
+  position: relative;
+  flex: 1;
+  gap: 1;
+}
+
 /* right side */
 .w-right {
   position: relative;
+  flex: 1;
+  gap: 1;
 }
 
 .w-mainCircle {
